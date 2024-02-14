@@ -27,7 +27,6 @@ const Home = () => {
             },
           };
           setUser(updatedUser);
-          console.log(updatedUser);
         } else {
           throw new Error("Failed to fetch user data");
         }
